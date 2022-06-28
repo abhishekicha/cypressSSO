@@ -1,0 +1,22 @@
+{
+  "name": "dank-map",
+  "version": "0.1.0",
+  "description": "A map function that can map over almost anything.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wankdanker/node-dank-map.git"
+  },
+  "keywords": [
+    "map",
+    "attribute",
+    "key",
+    "index",
+    "array"
+  ],
+  "author": "Dan VerWeire",
+  "license": "MIT"
+}

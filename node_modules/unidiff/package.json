@@ -1,0 +1,37 @@
+{
+   "name": "unidiff",
+   "version": "1.0.2",
+   "description": "diff with unified diff format handling",
+   "main": "dist/index.js",
+   "dependencies": {
+      "diff": "^2.2.2"
+   },
+   "devDependencies": {
+      "rollup": "^0.66.6",
+      "rollup-plugin-commonjs": "^9.2.0",
+      "rollup-plugin-node-resolve": "^3.4.0",
+      "rollup-plugin-terser": "^3.0.0",
+      "tape": "^4.9.1",
+      "test-kit": "^2.8.7"
+   },
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/mvoss9000/unidiff.git"
+   },
+   "scripts": {
+      "test": "tape test/test_*.js",
+      "cov": "tap --coverage-report=html test/test_*.js",
+      "build": "node rollup.js",
+      "prepublishOnly": "npm run build"
+   },
+   "files": [
+      "unidiff.js",
+      "hunk.js",
+      "dist"
+   ],
+   "keywords": [
+      "example"
+   ],
+   "author": "Matthew Voss",
+   "license": "MIT"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "dank-each",
+  "version": "1.0.0",
+  "description": "A function for iterating over objects, arrays, strings and ranges",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wankdanker/node-dank-each.git"
+  },
+  "keywords": [
+    "each",
+    "attribute",
+    "key",
+    "index",
+    "array",
+    "forEach"
+  ],
+  "author": "Dan VerWeire",
+  "license": "MIT"
+}
